@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>bin/sdk.js - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="BaseContext.html">BaseContext</a><ul class='methods'><li data-type='method'><a href="BaseContext.html#constructMessagePayload">constructMessagePayload</a></li><li data-type='method'><a href="BaseContext.html#getLogger">getLogger</a></li><li data-type='method'><a href="BaseContext.html#getMessageModel">getMessageModel</a></li><li data-type='method'><a href="BaseContext.html#getRequest">getRequest</a></li><li data-type='method'><a href="BaseContext.html#getResponse">getResponse</a></li><li data-type='method'><a href="BaseContext.html#getVariable">getVariable</a></li><li data-type='method'><a href="BaseContext.html#logger">logger</a></li><li data-type='method'><a href="BaseContext.html#setVariable">setVariable</a></li><li data-type='method'><a href="BaseContext.html#variable">variable</a></li></ul></li><li><a href="Conversation.html">CustomComponentContext</a><ul class='methods'><li data-type='method'><a href="Conversation.html#.sdkVersion">sdkVersion</a></li><li data-type='method'><a href="Conversation.html#attachment">attachment</a></li><li data-type='method'><a href="Conversation.html#botId">botId</a></li><li data-type='method'><a href="Conversation.html#channelId">channelId</a></li><li data-type='method'><a href="Conversation.html#channelType">channelType</a></li><li data-type='method'><a href="Conversation.html#constructMessagePayload">constructMessagePayload</a></li><li data-type='method'><a href="Conversation.html#error">error</a></li><li data-type='method'><a href="Conversation.html#getLogger">getLogger</a></li><li data-type='method'><a href="Conversation.html#getMessageModel">getMessageModel</a></li><li data-type='method'><a href="Conversation.html#getRequest">getRequest</a></li><li data-type='method'><a href="Conversation.html#getResponse">getResponse</a></li><li data-type='method'><a href="Conversation.html#getVariable">getVariable</a></li><li data-type='method'><a href="Conversation.html#invalidUserInput">invalidUserInput</a></li><li data-type='method'><a href="Conversation.html#keepTurn">keepTurn</a></li><li data-type='method'><a href="Conversation.html#location">location</a></li><li data-type='method'><a href="Conversation.html#logger">logger</a></li><li data-type='method'><a href="Conversation.html#MessageModel">MessageModel</a></li><li data-type='method'><a href="Conversation.html#messagePayload">messagePayload</a></li><li data-type='method'><a href="Conversation.html#nlpResult">nlpResult</a></li><li data-type='method'><a href="Conversation.html#platformVersion">platformVersion</a></li><li data-type='method'><a href="Conversation.html#postback">postback</a></li><li data-type='method'><a href="Conversation.html#properties">properties</a></li><li data-type='method'><a href="Conversation.html#rawPayload">rawPayload</a></li><li data-type='method'><a href="Conversation.html#releaseTurn">releaseTurn</a></li><li data-type='method'><a href="Conversation.html#reply">reply</a></li><li data-type='method'><a href="Conversation.html#request">request</a></li><li data-type='method'><a href="Conversation.html#sessionId">sessionId</a></li><li data-type='method'><a href="Conversation.html#setVariable">setVariable</a></li><li data-type='method'><a href="Conversation.html#text">text</a></li><li data-type='method'><a href="Conversation.html#transition">transition</a></li><li data-type='method'><a href="Conversation.html#userId">userId</a></li><li data-type='method'><a href="Conversation.html#variable">variable</a></li></ul></li><li><a href="module-Lib.EntityResolutionContext.html">EntityResolutionContext</a><ul class='methods'><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#addCandidateMessages">addCandidateMessages</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#addMessage">addMessage</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#addValidationError">addValidationError</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#cancel">cancel</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#clearDisambiguationValues">clearDisambiguationValues</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#clearItemValue">clearItemValue</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#constructMessagePayload">constructMessagePayload</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getCandidateMessages">getCandidateMessages</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getCurrentItem">getCurrentItem</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getCustomProperty">getCustomProperty</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getDisambiguationValues">getDisambiguationValues</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getDisplayValue">getDisplayValue</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getDisplayValues">getDisplayValues</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getEntity">getEntity</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getEntityItems">getEntityItems</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getEntityName">getEntityName</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getEnumValues">getEnumValues</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getItemsMatched">getItemsMatched</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getItemsMatchedOutOfOrder">getItemsMatchedOutOfOrder</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getItemsUpdated">getItemsUpdated</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getItemValue">getItemValue</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getLogger">getLogger</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getMessageModel">getMessageModel</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getMessages">getMessages</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getRequest">getRequest</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getResponse">getResponse</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getUserInput">getUserInput</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getValidationErrors">getValidationErrors</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#getVariable">getVariable</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#isFullEntityMatches">isFullEntityMatches</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#isSkippedItem">isSkippedItem</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#logger">logger</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#setCustomProperty">setCustomProperty</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#setDisambiguationValues">setDisambiguationValues</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#setEntity">setEntity</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#setItemValue">setItemValue</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#setSystemEntityDisplayFunction">setSystemEntityDisplayFunction</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#setSystemEntityDisplayProperties">setSystemEntityDisplayProperties</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#setVariable">setVariable</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#skipItem">skipItem</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#translate">translate</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#unskipItem">unskipItem</a></li><li data-type='method'><a href="module-Lib.EntityResolutionContext.html#variable">variable</a></li></ul></li><li><a href="module-Lib.MessageModel.html">MessageModel</a><ul class='methods'><li data-type='method'><a href="module-Lib.MessageModel.html#.addChannelExtensions">addChannelExtensions</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.addGlobalActions">addGlobalActions</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.attachmentConversationMessage">attachmentConversationMessage</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.callActionObject">callActionObject</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.cardConversationMessage">cardConversationMessage</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.cardObject">cardObject</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.locationActionObject">locationActionObject</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.locationConversationMessage">locationConversationMessage</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.postbackActionObject">postbackActionObject</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.postbackConversationMessage">postbackConversationMessage</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.postbackKeyword">postbackKeyword</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.rawConversationMessage">rawConversationMessage</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.shareActionObject">shareActionObject</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.textConversationMessage">textConversationMessage</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.urlActionObject">urlActionObject</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#.validateConversationMessage">validateConversationMessage</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#isValid">isValid</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#messagePayload">messagePayload</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#rawPayload">rawPayload</a></li><li data-type='method'><a href="module-Lib.MessageModel.html#validationError">validationError</a></li></ul></li><li><a href="module-Middleware.WebhookClient.html">WebhookClient</a><ul class='methods'><li data-type='method'><a href="module-Middleware.WebhookClient.html#MessageModel">MessageModel</a></li><li data-type='method'><a href="module-Middleware.WebhookClient.html#on">on</a></li><li data-type='method'><a href="module-Middleware.WebhookClient.html#receiver">receiver</a></li><li data-type='method'><a href="module-Middleware.WebhookClient.html#send">send</a></li></ul></li><li><a href="module-Testing.MockConversation.html">MockConversation</a><ul class='methods'><li data-type='method'><a href="module-Testing.MockConversation.html#.any">any</a></li><li data-type='method'><a href="module-Testing.MockConversation.html#.fromRequest">fromRequest</a></li><li data-type='method'><a href="module-Testing.MockConversation.html#getReplies">getReplies</a></li></ul></li><li><a href="NLPResult.html">NLPResult</a><ul class='methods'><li data-type='method'><a href="NLPResult.html#entityMatches">entityMatches</a></li><li data-type='method'><a href="NLPResult.html#fullEntityMatches">fullEntityMatches</a></li><li data-type='method'><a href="NLPResult.html#intentMatches">intentMatches</a></li><li data-type='method'><a href="NLPResult.html#topIntentMatch">topIntentMatch</a></li></ul></li></ul><h3>Modules</h3><ul><li><a href="module-CLI.html">CLI</a></li><li><a href="module-Config.html">Config</a><ul class='methods'><li data-type='method'><a href="module-Config.html">setLogger</a></li></ul></li><li><a href="module-Lib.html">Lib</a></li><li><a href="module-Middleware.html">Middleware</a><ul class='methods'><li data-type='method'><a href="module-Middleware.html#.customComponent">customComponent</a></li><li data-type='method'><a href="module-Middleware.html#.webhookReceiver">webhookReceiver</a></li></ul></li><li><a href="module-Testing.html">Testing</a><ul class='methods'><li data-type='method'><a href="module-Testing.html#.MockCompositeBagEntityVariable">MockCompositeBagEntityVariable</a></li><li data-type='method'><a href="module-Testing.html#.MockCompositeBagItem">MockCompositeBagItem</a></li><li data-type='method'><a href="module-Testing.html#.MockEventHandlerRequest">MockEventHandlerRequest</a></li><li data-type='method'><a href="module-Testing.html#.MockRequest">MockRequest</a></li><li data-type='method'><a href="module-Testing.html#.MockResolveEntitiesEvent">MockResolveEntitiesEvent</a></li></ul></li><li><a href="module-Util.html">Util</a></li><li><a href="module-Util_MessageModel.html">Util/MessageModel</a><ul class='methods'><li data-type='method'><a href="module-Util_MessageModel.html#.cardToText">cardToText</a></li><li data-type='method'><a href="module-Util_MessageModel.html#.convertRespToText">convertRespToText</a></li></ul></li><li><a href="module-Util_Text.html">Util/Text</a><ul class='methods'><li data-type='method'><a href="module-Util_Text.html#.approxTextMatch">approxTextMatch</a></li></ul></li><li><a href="module-Util_Webhook.html">Util/Webhook</a><ul class='methods'><li data-type='method'><a href="module-Util_Webhook.html#.bodyParserRawMessageVerify">bodyParserRawMessageVerify</a></li><li data-type='method'><a href="module-Util_Webhook.html#.buildSignatureHeader">buildSignatureHeader</a></li><li data-type='method'><a href="module-Util_Webhook.html#.messageToBot">messageToBot</a></li><li data-type='method'><a href="module-Util_Webhook.html#.messageToBotWithProperties">messageToBotWithProperties</a></li><li data-type='method'><a href="module-Util_Webhook.html#.verifyMessageFormat">verifyMessageFormat</a></li></ul></li></ul><h3>Externals</h3><ul><li><a href="external-ExpressApplication.html">ExpressApplication</a></li><li><a href="external-ExpressRequest.html">ExpressRequest</a></li><li><a href="external-ExpressResponse.html">ExpressResponse</a></li><li><a href="external-ExpressRouter.html">ExpressRouter</a></li></ul><h3>Global</h3><ul><li><a href="global.html#init">init</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">bin/sdk.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>#! /usr/bin/env node
+
+const self = require('../package.json');
+const { Command } = require('./lib/command');
+const { CCInit } = require('./commands/init');
+const { CCPack } = require('./commands/pack');
+const { CCServiceCommand } = require('./commands/service');
+
+const command = new Command('bots-node-sdk', `Developer tools for ${self.name}`);
+
+command
+  .project(self)
+  .withHelp()
+  .version(self.version)
+  // add subcommand delegates
+  .delegate(CCInit, 'init').root()
+  .delegate(CCServiceCommand, 'service').root()
+  .delegate(CCPack, 'pack').root()
+  // parse process args
+  .parse(process.argv)
+  .then(() => {
+    /* done */
+  });
+
+/**
+ * Command line developer tools for @oracle/bots-node-sdk
+ * @module CLI
+ * @see https://github.com/oracle/bots-node-sdk/tree/master/bin/README.md
+ * @example
+ * 
+ * Usage: bots-node-sdk [options] &lt;subcommand> [options]
+ *
+ * Options:
+ *
+ *   -h --help       Display help and usage information
+ *   -v --version    Print version information
+ *
+ * Subcommands:
+ *
+ *   init       Initialize a new Custom Component package
+ *   service    Start a service with Custom Component package(s)
+ *   pack       Create a deployable Custom Component artifact
+ * 
+ */</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>
