@@ -10,9 +10,9 @@ examples
 docs
 docshim.js
 jsdoc.json
-ts
+/ts
 tslint.json
-THIRDPARTY.md
+THIRD_PARTY_LICENSES_DEV.txt
 CONTRIBUTING.md
 **/*.md
 *.tgz

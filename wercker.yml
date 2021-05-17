@@ -7,6 +7,9 @@ build:
         code: |
           echo "node version $(node -v) running"
           echo "npm version $(npm -v) running"
+    # make available as global
+    - npm-install:
+        options: --global
     # install dependencies with `npm ci`
     - mvandervliet/npm-ci
     # test
